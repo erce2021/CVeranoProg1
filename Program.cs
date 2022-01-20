@@ -1,57 +1,84 @@
 ﻿using System;
 
-namespace Gastosdia3
+namespace Ejercicio2Diajueves20
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Crea un arreglo
-            double[] vGastos;
-            //Crea las variables
-            double gasto, totalGasto, diaMayor, gastoMayor;
-            //Un int para los dias 
-            int cantDias;
+            string[] Participantes = {"1","2","3","4"};
+            int gan;
+            int vot=1,cvot1=0,cvot2=0,cvot3=0,cvot4=0;
+            //double[] votos = new double[4];
 
-            Console.WriteLine("Coloque los dias que desea introducir");
-            cantDias = Convert.ToInt32(Console.ReadLine());
-            //Almacena la cantidad de dia en el arreglo , la cantidad de gastos va en dependencia en los dias
-            vGastos = new double[cantDias];
+            //Menu para eligir las casillas 
+            Console.WriteLine("Casillas de los participantes");
 
-            for(int dia = 1; dia <= cantDias; dia++)
+            for (int i = 0; i < Participantes.Length; i++)
             {
-                Console.WriteLine("Ingrese el gasto del dia " + dia + " Gastos");
-                //Se introducen los gastos
-                gasto = Convert.ToDouble(Console.ReadLine());
-                //Crea un contador que va almacenando la cantidad de los gastos en el arreglo
-                vGastos[dia - 1] = gasto;
+                Console.WriteLine("Candidato "+Participantes[i]);
+
             }
-            
-            //Hacemos una comparacion de cual gasto es mayor 
-            //Inicializa las variables con 0
-            gastoMayor = 0;
-            totalGasto = 0;
-            //Inicializa el dia con 1
-            diaMayor = 1;
-
-            //
-            for(int i = 0; i < cantDias; i++)
+           
+            while (vot!=0)
             {
-                //Evalua el gasto mayor
-                if (vGastos[i] > gastoMayor)
+                Console.WriteLine("Ingrese el voto: ");
+                vot = int.Parse(Console.ReadLine());
+                switch (vot)
                 {
+                    case 1:
+                        if (vot == 1)
+                        {
+                            cvot1++;
+                        }
+                        break;
+                    case 2:
+                        if (vot == 2)
+                        {
+                            cvot2++;
+                        }
+                        break;
+                    case 3:
+                        if (vot == 3)
+                        {
+                            cvot3++;
+                        }
+                        break;
+                    case 4:
+                        if (vot == 4)
+                        {
+                            cvot4++;
+                        }
+                        break;
 
-                    gastoMayor = vGastos[i];
-                    diaMayor = i + 1;
+                    default:
+                        Console.WriteLine("El participante no existe");
+                        break;
                 }
-                //Calculamos el total
-                totalGasto = totalGasto + vGastos[i];
-                //Mostramos los gastos
-                Console.WriteLine("Dia " + (i + 1) + " Total: " + vGastos[i]);
+                int max = cvot1;
+                if(max < cvot2)
+                {
+                    max = cvot2;
+                    Console.WriteLine("El ganador es el participante 2");
+                }
+                if else()
+
+                
             }
-            Console.WriteLine($"El gasto mayor es: {gastoMayor}");
-            Console.WriteLine($"El total de gasto es: {totalGasto}");
-            Console.WriteLine($"El dia de mayor gasto es: {diaMayor}");
+           
+
+
+            Console.WriteLine("El ganador es: ");
+            Console.WriteLine(cvot1);
+            Console.WriteLine(cvot2);
+            Console.WriteLine(cvot3);
+            Console.WriteLine(cvot4);
+
+
+
+
+
+
         }
     }
 }
