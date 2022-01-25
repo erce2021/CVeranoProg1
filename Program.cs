@@ -1,78 +1,38 @@
 ﻿using System;
 
-namespace Ejercicio2Diajueves20
+namespace Prueba_1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string[] Participantes = {"1","2","3","4"};
-            int gan;
-            int vot=1,cvot1=0,cvot2=0,cvot3=0,cvot4=0;
-            //double[] votos = new double[4];
+            string linea;
+            int y =1;
+            int NPar=0, NImp=0;
+            int SumImp = 0;
 
-            //Menu para eligir las casillas 
-            Console.WriteLine("Casillas de los participantes");
 
-            for (int i = 0; i < Participantes.Length; i++)
-            {
-                Console.WriteLine("Candidato "+Participantes[i]);
-
+            Console.WriteLine("Digite su Cedula (Sin caraceres): ");
+            Console.WriteLine("Ingrese -1 al finalizar. ");
+            
+            while (y>=0){
+                y = int.Parse(Console.ReadLine());
             }
-           
-            while (vot!=0)
+
+
+            for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine("Ingrese el voto: ");
-                vot = int.Parse(Console.ReadLine());
-                switch (vot)
+                if (y % 2 == 0)
                 {
-                    case 1:
-                        if (vot == 1)
-                        {
-                            cvot1++;
-                        }
-                        break;
-                    case 2:
-                        if (vot == 2)
-                        {
-                            cvot2++;
-                        }
-                        break;
-                    case 3:
-                        if (vot == 3)
-                        {
-                            cvot3++;
-                        }
-                        break;
-                    case 4:
-                        if (vot == 4)
-                        {
-                            cvot4++;
-                        }
-                        break;
-
-                    default:
-                        Console.WriteLine("El participante no existe");
-                        break;
+                    NPar = NPar + 1;
                 }
-                int max = cvot1;
-                if(max < cvot2)
-                {
-                    max = cvot2;
-                    Console.WriteLine("El ganador es el participante 2");
-                }
-                if else()
-
-                
+                else
+                    SumImp =SumImp + y;
+                Console.WriteLine();
             }
-           
 
-
-            Console.WriteLine("El ganador es: ");
-            Console.WriteLine(cvot1);
-            Console.WriteLine(cvot2);
-            Console.WriteLine(cvot3);
-            Console.WriteLine(cvot4);
+            Console.WriteLine("La cantidad de numeros pares es: "+NPar);
+            Console.WriteLine("La suma de numeros Impares es: " + SumImp);
 
 
 
