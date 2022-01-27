@@ -1,0 +1,55 @@
+int opc = 0;
+            Boolean arranc=false, acel = false, x=true;
+            Carro c = new Carro();
+            do
+            {
+                Console.WriteLine("Buenas!!");
+                Console.WriteLine("Menú de Opciones");
+                Console.WriteLine("1-Arrancar.");
+                Console.WriteLine("2-Acelerar.");
+                Console.WriteLine("3-Frenar.");
+                Console.WriteLine("4-Parar.");
+                Console.WriteLine("5-Salir");
+                opc = int.Parse(Console.ReadLine());
+                switch (opc)
+                {
+                    case 1:
+                        c.Arrancar();
+                        arranc = true;
+                        x = false;
+                        break;
+
+                    case 2:
+                        if (arranc == false){
+                            Console.WriteLine("El Vehiculo esta Apagado");
+                        }else{
+                            
+                           c.Acelerar();
+                            acel = true;
+                        }
+                        x = false;
+                        break;
+
+                    case 3:
+                        if (acel == false) {
+                            Console.WriteLine("El Vehiculo No esta en Marcha");
+                        }else{
+                            c.Frenar();
+                        }
+                        x = false;
+                        break;
+
+                    case 4:
+                        if (arranc == false){
+                            Console.WriteLine("El Vehiculo esta Apagado");
+                        }else{
+                            c.Parar();
+                        }
+                        x = false;
+                        break;
+
+                    default:
+                        x = true;
+                        break;
+                }
+            } while (x==false);
