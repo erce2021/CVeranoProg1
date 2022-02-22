@@ -1,0 +1,10 @@
+C:\Users\JADPA28\source\repos\menu\menu\bin\Debug\menu.exe.config
+C:\Users\JADPA28\source\repos\menu\menu\bin\Debug\menu.exe
+C:\Users\JADPA28\source\repos\menu\menu\bin\Debug\menu.pdb
+C:\Users\JADPA28\source\repos\menu\menu\obj\Debug\menu.csprojAssemblyReference.cache
+C:\Users\JADPA28\source\repos\menu\menu\obj\Debug\menu.MenuPruebaForm.resources
+C:\Users\JADPA28\source\repos\menu\menu\obj\Debug\menu.Properties.Resources.resources
+C:\Users\JADPA28\source\repos\menu\menu\obj\Debug\menu.csproj.GenerateResource.cache
+C:\Users\JADPA28\source\repos\menu\menu\obj\Debug\menu.csproj.CoreCompileInputs.cache
+C:\Users\JADPA28\source\repos\menu\menu\obj\Debug\menu.exe
+C:\Users\JADPA28\source\repos\menu\menu\obj\Debug\menu.pdb
