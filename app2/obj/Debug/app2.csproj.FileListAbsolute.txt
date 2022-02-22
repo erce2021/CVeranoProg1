@@ -1,0 +1,10 @@
+C:\Users\JADPA28\source\repos\app2\app2\bin\Debug\app2.exe.config
+C:\Users\JADPA28\source\repos\app2\app2\bin\Debug\app2.exe
+C:\Users\JADPA28\source\repos\app2\app2\bin\Debug\app2.pdb
+C:\Users\JADPA28\source\repos\app2\app2\obj\Debug\app2.csprojAssemblyReference.cache
+C:\Users\JADPA28\source\repos\app2\app2\obj\Debug\app2.UsoDeFichasForm.resources
+C:\Users\JADPA28\source\repos\app2\app2\obj\Debug\app2.Properties.Resources.resources
+C:\Users\JADPA28\source\repos\app2\app2\obj\Debug\app2.csproj.GenerateResource.cache
+C:\Users\JADPA28\source\repos\app2\app2\obj\Debug\app2.csproj.CoreCompileInputs.cache
+C:\Users\JADPA28\source\repos\app2\app2\obj\Debug\app2.exe
+C:\Users\JADPA28\source\repos\app2\app2\obj\Debug\app2.pdb
