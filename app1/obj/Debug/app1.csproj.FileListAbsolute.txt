@@ -1,0 +1,10 @@
+C:\Users\JADPA28\source\repos\app1\app1\bin\Debug\app1.exe.config
+C:\Users\JADPA28\source\repos\app1\app1\bin\Debug\app1.exe
+C:\Users\JADPA28\source\repos\app1\app1\bin\Debug\app1.pdb
+C:\Users\JADPA28\source\repos\app1\app1\obj\Debug\app1.csprojAssemblyReference.cache
+C:\Users\JADPA28\source\repos\app1\app1\obj\Debug\app1.DateTimePickerForm.resources
+C:\Users\JADPA28\source\repos\app1\app1\obj\Debug\app1.Properties.Resources.resources
+C:\Users\JADPA28\source\repos\app1\app1\obj\Debug\app1.csproj.GenerateResource.cache
+C:\Users\JADPA28\source\repos\app1\app1\obj\Debug\app1.csproj.CoreCompileInputs.cache
+C:\Users\JADPA28\source\repos\app1\app1\obj\Debug\app1.exe
+C:\Users\JADPA28\source\repos\app1\app1\obj\Debug\app1.pdb
